@@ -3,8 +3,8 @@ package hw;
 public class Hero {
 	String[] job = {"shaman","mage","hunter","paladin","warlock","priest","druid","rogue",null};
 	
-	int health = 30;
-	private void heroHpChanger(int value) {//ìº¡ìŠí™”,ì€ë‹‰í™”
+	int health = 30;//°´Ã¼º¯¼ö
+	private void heroHpChanger(int value) {
 		this.health+=value;
 		return;
 	}
@@ -19,6 +19,6 @@ public class Hero {
 	}
 	public void print_hero_health(int heal) {
 		System.out.println(heal);
-	}
+	}//¸Ş¼Òµå
 
 }
