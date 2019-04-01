@@ -4,7 +4,7 @@ public class Hero {
 	String[] job = {"shaman","mage","hunter","paladin","warlock","priest","druid","rogue",null};
 	
 	int health = 30;
-	private void heroHpChanger(int value) {
+	private void heroHpChanger(int value) {//캡슐화,은닉화
 		this.health+=value;
 		return;
 	}
