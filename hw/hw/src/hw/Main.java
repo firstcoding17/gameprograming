@@ -12,13 +12,13 @@ public class Main {
 		Opponent.health = 30;
 		String EnemyTride = Opponent.job[5];
 		
-		Minion Flame_Imp = new Minion(2,3,1,"È­¿°ÀÓÇÁ",Minion.Tride.devil);
+		Minion Flame_Imp = new Minion(2,3,1,"í™”ì—¼ì„í”„",Minion.Tride.devil);//ìƒì„±ìë¥¼ í†µí•œ ì„ ì–¸ 
 		
-		Minion pit_Lord = new Minion(6,5,4,"Áö¿ÁÀÇ ±ºÁÖ",Minion.Tride.devil);
+		Minion pit_Lord = new Minion(6,5,4,"ì§€ì˜¥ì˜ êµ°ì£¼",Minion.Tride.devil);
 	
-		Minion Antique_Healbot = new Minion(3,3,5,"³°Àº Ä¡À¯·Îº¿",Minion.Tride.mech);
+		Minion Antique_Healbot = new Minion(3,3,5,"ë‚¡ì€ ì¹˜ìœ ë¡œë´‡",Minion.Tride.mech);
 		
-		Minion Guardian_of_Kings = new Minion(6,5,7,"¿ÕÀÇ ¼öÈ£ÀÚ",Minion.Tride.none);
+		Minion Guardian_of_Kings = new Minion(6,5,7,"ì™•ì˜ ìˆ˜í˜¸ì",Minion.Tride.none);
 		
 		Me.hero_damage(Flame_Imp.Attack);
 		Me.print_hero_health(Me.health);
